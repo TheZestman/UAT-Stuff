@@ -1,0 +1,29 @@
+<!-- Login Information-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" /> <!-- Links style file -->
+    <script src="loginCode.js"></script>
+    </script>
+    <title>UATSpace Login Page
+    </title>
+
+</head>
+
+<body>
+    <h1>
+        Welcome to the UATSpace login page, please log in.
+    </h1>
+    <p id="loginStatus">
+        Please Enter Your First + Last Name Along With Badge Number Under 999
+    </p>
+    <form id="creditSumbit" onsubmit="return false">
+        First Name: <input type="text" id="fName"><br>
+        Last Name: <input type="text" id="lName"><br>
+        Badge #: <input type="number" id="badgeID"><br>
+        <input type="submit" onclick="checkCreds();">
+    </form>
+</body>
+
+</html>
